@@ -102,9 +102,6 @@ cmake-build-*/
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
-# File-based project format
-*.iws
-
 # IntelliJ
 out/
 
@@ -133,8 +130,6 @@ fabric.properties
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
 out
 gen
 ### Windows template
@@ -164,4 +159,6 @@ $RECYCLE.BIN/
 *.lnk
 
 .mvn/
-.idea/
+/src/main/resources/application.properties
+/mvnw
+/mvnw.cmd
